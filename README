@@ -1,0 +1,35 @@
+This is the pycartogram library
+
+Description
+======================
+
+A simple python extension generating data to be used in cartograms
+
+The extension uses cart-1.2.2 (included in src/).  This is the source code for the program "cart",
+which calculates cartograms using the diffusion-based method of Gastner and Newman (2004).  For
+details, see http://www.umich.edu/~mejn/cart/ .
+
+
+SETUP
+=====
+
+1. Install C Requirements
+    - fftw-dev
+
+    On Ubuntu this can generally be installed with apt-get install fftw-dev
+
+2. Install Python Requirements
+    - numpy
+
+3. Run setup
+    python setup.py install
+
+4. Test
+    cd test
+    python test_uspop.py
+
+CONTACT
+=======
+
+Micah Jamison
+dataconcise@gmail.com
