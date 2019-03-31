@@ -16,10 +16,11 @@ SETUP
 1. Install C Requirements
     - fftw-dev
 
-    On Ubuntu this can generally be installed with apt-get install fftw-dev
+    On Ubuntu this can generally be installed with apt-get install fftw-dev libfftw3-dev
 
 2. Install Python Requirements
     - numpy
+    - cython
 
 3. Run setup
     python setup.py install
